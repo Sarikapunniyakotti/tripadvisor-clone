@@ -87,7 +87,7 @@ body {
 .description{
     display: flex;
     justify-content: center;
-    gap:25px;
+    gap:20px;
     margin-top: 20px;
     cursor: pointer;
 }
@@ -148,9 +148,8 @@ body {
 .inside-content {
     position: absolute;
     top: 80%;
-    font-size: 16px;
     color: white;
-    margin:5px;
+    margin:10px;
     
 }
 .course-card img {
@@ -298,7 +297,7 @@ body {
     body{
         font-size: 10px;
     }
-    .navbar__s2,.arrow p,.footer__three{
+    .navbar__s2,.description,.arrow p,.footer__three{
         display: none;
     }
     .navbar__s4,.heart-emoji p {
@@ -314,7 +313,7 @@ body {
         flex-basis:40%;
     }
     .inside-content{
-        font-size: 12px;
+        font-size:10px;
         top:80%;
     }
     .footer{
