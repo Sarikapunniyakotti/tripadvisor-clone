@@ -148,10 +148,10 @@ body {
 .inside-content {
     position: absolute;
     top: 80%;
+    font-size: 16px;
     color: white;
-    font-weight: 600;
     margin:5px;
-    margin-left:10px;
+    
 }
 .course-card img {
     width: 100%;
@@ -210,11 +210,10 @@ body {
     background-color:black;
     color: white;
     padding: 5px;
-    font-size: 20px;
     border-radius:30px;
     width: fit-content;
     position: absolute;
-    left:95%;
+    left:92%;
     top:40%;
     cursor:pointer;
 }
@@ -278,7 +277,7 @@ body {
     body{
         font-size: 12px;
     }
-    .navbar__s2,.heart-emoji p,.arrow p,.footer__three{
+    .navbar__s2,.heart-emoji p,.arrow p{
         display: none;
     }
     .navbar__s4 {
@@ -289,6 +288,7 @@ body {
     }
     .inside-content{
         font-size: 10px;
+        top:70%;
     }
     .footer{
         font-size: 10px;
@@ -315,6 +315,7 @@ body {
     }
     .inside-content{
         font-size: 12px;
+        top:80%;
     }
     .footer{
         font-size: 10px;
